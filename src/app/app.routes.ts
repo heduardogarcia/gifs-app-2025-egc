@@ -11,6 +11,10 @@ export const routes: Routes = [
         loadComponent:()=>import('./gifs/pages/search-page/search-page.component')
       },
       {
+        path:'history/:query',
+        loadComponent:()=>import('./gifs/pages/git-history/git-history.component')
+      },
+      {
         path:'trending',
         loadComponent:()=>import('./gifs/pages/trending-page/trending-page.component')
       },
